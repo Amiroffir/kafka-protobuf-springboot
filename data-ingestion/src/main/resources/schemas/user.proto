@@ -1,0 +1,11 @@
+
+option java_multiple_files = true;
+option java_package = "com.amiroffir.dataingestion.generated";
+
+
+
+message User {
+  optional int32 id= 1;
+  optional string name = 2;
+  optional string email = 3;
+}
